@@ -1,0 +1,34 @@
+@import url("../../style.css");
+
+.signup-component{
+    position: absolute;
+    top: 10rem;
+    left: 40rem;
+    text-align: center;
+    gap:1rem;
+    
+}
+.input{
+    margin-top: 2rem;
+}
+.simple-button{
+    position: absolute;
+    top: 32rem;
+    width: 30%;
+    left: 4rem;
+}
+.already-a-member-header{
+    text-decoration: none;
+}
+@media screen and (max-width: 492px) {
+    .signup-component{
+        position: absolute;
+        left: 1rem;
+     }
+     .simple-button{
+         position: absolute;
+         top: 30rem;
+         left: 5rem;
+     }
+
+ }
