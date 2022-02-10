@@ -1,0 +1,33 @@
+@import url("../../style.css");
+
+.login-page-component{
+    position: absolute;
+    top: 10rem;
+    left: 36rem;
+    text-align: center;
+    gap:1rem;
+}
+.input{
+    margin-top: 6rem;
+}
+.input-margin{
+    margin-top: 2rem;
+}
+.simple-button{
+    position: absolute;
+    top: 20rem;
+    left: 4rem;
+    width: 40%;
+}
+@media screen and (max-width: 492px) {
+    .login-page-component{
+        position: absolute;
+        left: 1rem;
+     }
+     .simple-button{
+         position: absolute;
+         top: 18rem;
+         left: 3rem;
+     }
+
+ }
