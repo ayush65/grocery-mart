@@ -1,0 +1,52 @@
+@import url("https://angry-bird-ui.netlify.app/components/All-css-files/main.css");
+@import url("reset.css");
+
+.tab-content-button{
+    width: 40px;
+    line-height:1.5;
+    background-color: var(--white);
+    color: var(--primary-color);
+    border-radius: 25%;
+}
+.landing-page-component{
+    position: absolute;
+    top: 10rem;
+    left: 26rem;
+    text-align: center;
+    gap:1rem;
+}
+.landing-page-heading{
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+.simple-button{
+    background-color: var(--primary-color);
+    width: 50px;
+}
+.modal-component-heading{
+    margin-right: 23rem;
+}
+@media screen and (max-width: 492px) {
+    .landing-page-component{
+        position: absolute;
+        left: 0px;
+     }
+     .simple-button{
+         position: absolute;
+         top: 15rem;
+         left: 4rem;
+     }
+     .primary-outline{
+        position: absolute;
+        top: 15rem;
+        left: 9rem;
+     }
+     .landing-page-heading{
+         font-size:2rem;
+     }
+     .landing-page-content{
+         font-size: 1rem;
+     }
+ }
+
+  
