@@ -1,0 +1,79 @@
+@import url("../../style.css");
+
+.input-box{
+    position: absolute;
+    top : 1rem;
+    right: 22rem;
+}
+.homepage-logo{
+    width: 95.813rem;
+    height: 28.125rem;
+    border-bottom: 4px solid var(--primary-color);
+    
+}
+.homepage-page-component{
+    position: absolute;
+    top: 3rem;
+    left: 0rem;
+    text-align: center;
+    gap:1rem;
+}
+.homepage-heading-category{
+    color: var(--primary-color);
+    position: absolute;
+    left: 2rem;
+}
+.category-image{
+    width: 25rem;
+    height: 12.5rem;
+}
+.homapage-category{
+    margin-top: 4rem;
+    gap:1rem;
+}
+.homapage-category{
+    display: flex;
+}
+.category-container{
+    display: flex;
+    gap:1rem;
+    flex-flow: row wrap;
+}
+.breakfast-img{
+    height: 19.375rem;
+}
+.card-with-text-overlay-description{
+    font-size: 3rem;
+}
+.category-products-link{
+    font-size: 1.5rem;
+    position: absolute;
+    text-decoration: none;
+    right: 1rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+@media screen and (max-width: 492px) {
+
+    .category-container{
+        flex-flow: column wrap;
+        gap: 0.2rem;
+     }
+
+     .card-container-horizontal{
+         width: 18.75rem;
+         height: 21.875rem;
+     }
+     .homepage-logo{
+         width: 100%;
+         height: 50%;
+     }
+    .card-with-text-overlay-description{
+        font-size: 1rem;
+    }
+    .category-products-link{
+        font-size: 1rem;
+        position: absolute;
+        top:16rem;
+    }
+}
