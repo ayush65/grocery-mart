@@ -6,8 +6,8 @@
     right: 22rem;
 }
 .homepage-logo{
-    width: 1533px;
-    height: 450px;
+    width: 95.813rem;
+    height: 28.125rem;
     border-bottom: 4px solid var(--primary-color);
     
 }
@@ -24,8 +24,8 @@
     left: 2rem;
 }
 .category-image{
-    width: 400px;
-    height: 200px;
+    width: 25rem;
+    height: 12.5rem;
 }
 .homapage-category{
     margin-top: 4rem;
@@ -40,7 +40,7 @@
     flex-flow: row wrap;
 }
 .breakfast-img{
-    height: 310px;
+    height: 19.375rem;
 }
 .card-with-text-overlay-description{
     font-size: 3rem;
@@ -61,8 +61,8 @@
      }
 
      .card-container-horizontal{
-         width: 300px;
-         height: 350px;
+         width: 18.75rem;
+         height: 21.875rem;
      }
      .homepage-logo{
          width: 100%;
