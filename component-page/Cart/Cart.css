@@ -1,0 +1,66 @@
+@import url("../Wishlist/Wishlist.css");
+
+.cart-management-component{
+    position: absolute;
+    top: 7rem;
+    left: 20rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2.5rem;
+}
+.card-container-horizontal{
+    width: 62.5rem;
+    height: 18.75rem;
+}
+.card-component-horizontal{
+    width: 18.75rem;
+}
+.vertical-card-button{
+    width: 30%;
+    right: 0px;
+}
+.vertical-card-button-save-later{
+    position: absolute;
+    right: 27rem;
+    bottom: 0px;
+    line-height: 2;
+    width: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.fa-icon-plus,.product-quantity-heading,.fa-icon-minus{
+    position: absolute;
+    top: 10rem;
+}
+.fa-icon-plus{
+    left: 27rem;
+}
+.product-quantity-heading{
+    left: 25rem;
+}
+.fa-icon-minus{
+    left: 22rem;
+}
+.product-heading{
+    color: var(--primary-color);
+    position: absolute;
+    left:22rem;
+    top: 4rem;
+}
+.product-price{
+    position: absolute;
+    left: 22rem;
+    top: 7rem;
+    color: var(--primary-color);
+}
+@media screen and (max-width: 492px) {
+
+    .cart-management-component{
+        flex-flow: column wrap;
+        gap: 4rem;
+        left: 1rem;
+     }
+
+}
