@@ -19,6 +19,11 @@
     width: 30%;
     right: 0px;
 }
+.sidebar-category,.sidebar-price-ranging,.sidebar-price{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+
+}
 .vertical-card-button-save-later{
     position: absolute;
     right: 27rem;
