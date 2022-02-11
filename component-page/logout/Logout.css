@@ -12,3 +12,15 @@
     top: 10rem;
     left: 13rem;
 }
+@media screen and (max-width: 492px) {
+
+    .logout-page-component{
+        position: absolute;
+        left: 1rem;
+     }
+     .simple-button{
+        position: absolute;
+        left: 3rem;
+    }
+
+}
