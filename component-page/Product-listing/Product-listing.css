@@ -1,0 +1,39 @@
+@import url("../Wishlist/Wishlist.css");
+
+.categories-management-component{
+    position: absolute;
+    top: 7rem;
+    left: 20rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2.5rem;
+}
+.card-container-horizontal{
+    width: 21.875rem;
+    height: 24.375rem;
+}
+.product-quantity-heading{
+    margin-top: 2rem;
+}
+.product-name{
+    position: absolute;
+    bottom: 7rem;
+    left: 5rem;
+    color: var(--primary-color);
+}
+.text-aligngment{
+    position: absolute;
+    left: 4rem;
+}
+@media screen and (max-width: 492px) {
+
+    .categories-management-component{
+        flex-flow: column wrap;
+        gap: 5rem;
+        left: 0rem;
+     }
+     .card-container-horizontal{
+        width: 18.75rem;
+        height: 24.375rem;
+    }
+}
