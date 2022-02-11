@@ -16,6 +16,11 @@
     left: 3rem;
     top:2rem;
 }
+#sidebar-category,#sidebar-price-ranging,#sidebar-price{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+
+}
 .product-listing-link{
     position:absolute;
     right: 3rem;
