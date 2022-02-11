@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="Cart.css">
+    <link rel="stylesheet" href="Product-listing.css">
     <script src="https://kit.fontawesome.com/ec5b9e4e19.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery Mart</title>
@@ -17,7 +17,7 @@
             <input class="input-box basic" placeholder="Search" type="text" />
             <a class="tab-content" href=""><i class="fa-solid fa-magnifying-glass"></i></a>
             <a class="tab-content" href="../Wishlist/Wishlist.html"><i class="fa-solid fa-heart"></i></a>
-            <a class="tab-content" href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="tab-content" href="../Cart/Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
             <a class="tab-content" href="../categories/category-page.html"><i class="fa-solid fa-list"></i></a>
             <a class="tab-content" href=""><i class="fa-solid fa-user"></i></a>
         </nav>
@@ -77,52 +77,54 @@
         <input type="radio" class="sidebar-category category-pharma-and-medicine" name="product-category" value="sidebar-category">
         <label for="html">Pharma and Medicine</label><br>
      </div>
-     <div class="cart-management-component">
+     <div class="categories-management-component">
         <div class="card-container-horizontal cards-border-radius cards-shadow">
             <i class="fa-solid fa-icon-heart fa-heart"></i>
-            <img class="card-component-horizontal cart-image" src="../Cart/cart-images/buiscuit-img.jpg"></img>
-            <h1 class="product-heading">Nutri Choice Buiscuit Super Saver Pack</h1>
-            <h2 class="product-price">RS 114.50</h2>
-            <i class="fa-solid fa-icon-plus fa-plus"></i>
-            <h1 class="product-quantity-heading">1</h1>
-            <i class="fa-solid fa-icon-minus fa-minus"></i>
-            <a class="vertical-card-button" type="button">Buy Now</a>
-            <a class="vertical-card-button-save-later" type="button">Save for later</a>
+            <img class="card-component-horizontal cart-image" src="../Wishlist/wishlist-images/rice-img.jpg"></img>
+            <h1 class="product-name">Organic Rice</h1>
+            <h1 class="product-quantity-heading">Rs 84.90</h1>
+            <a class="vertical-card-button" type="button">Add To Cart</a>
             </div>
-         
+
         <div class="card-container-horizontal cards-border-radius cards-shadow">
                 <i class="fa-solid fa-icon-heart fa-heart"></i>
-                <img class="card-component-horizontal cart-image" src="../Cart/cart-images/dal-img.jpg"></img>
-                <h1 class="product-heading">Tata Sampann Toor Dal</h1>
-                <h2 class="product-price">RS 534.95</h2>
-                <i class="fa-solid fa-icon-plus fa-plus"></i>
-                <h1 class="product-quantity-heading">3</h1>
-                <i class="fa-solid fa-icon-minus fa-minus"></i>
-                <a class="vertical-card-button" type="button">Buy Now</a>
-                <a class="vertical-card-button-save-later" type="button">Save for later</a>
-        </div>   
+                <img class="card-component-horizontal cart-image" src="../Wishlist/wishlist-images/buiscuit-img.jpg"></img>
+                <h1 class="product-name">Nutri Choice</h1>
+                <h1 class="product-quantity-heading">Rs 54.9</h1>
+                <a class="vertical-card-button" type="button">Add To Cart</a>
+        </div> 
+        
         <div class="card-container-horizontal cards-border-radius cards-shadow">
             <i class="fa-solid fa-icon-heart fa-heart"></i>
-            <img class="card-component-horizontal cart-image" src="../Cart/cart-images/maggi-img.jpg"></img>
-            <h1 class="product-heading">Maggi</h1>
-            <h2 class="product-price">RS 11.50</h2>
-            <i class="fa-solid fa-icon-plus fa-plus"></i>
-            <h1 class="product-quantity-heading">1</h1>
-            <i class="fa-solid fa-icon-minus fa-minus"></i>
-            <a class="vertical-card-button" type="button">Buy Now</a>
-            <a class="vertical-card-button-save-later" type="button">Save for later</a>
+            <img class="card-component-horizontal cart-image" src="../Wishlist/wishlist-images/dal-img.jpg"></img>
+            <h1 class="product-name">Tata Toor Dal</h1>
+            <h1 class="product-quantity-heading">Rs 137.90</h1>
+            <a class="vertical-card-button" type="button">Add To Cart</a>
         </div>
+
         <div class="card-container-horizontal cards-border-radius cards-shadow">
             <i class="fa-solid fa-icon-heart fa-heart"></i>
-            <img class="card-component-horizontal cart-image" src="../Cart/cart-images/rice-img.jpg"></img>
-            <h1 class="product-heading">Organic Rice 1KG</h1>
-            <h2 class="product-price">RS 84.43</h2>
-            <i class="fa-solid fa-icon-plus fa-plus"></i>
-            <h1 class="product-quantity-heading">2</h1>
-            <i class="fa-solid fa-icon-minus fa-minus"></i>
-            <a class="vertical-card-button" type="button">Buy Now</a>
-            <a class="vertical-card-button-save-later" type="button">Save for later</a>
+            <img class="card-component-horizontal cart-image" src="../Wishlist/wishlist-images/maggi-img.jpg"></img>
+            <h1 class="product-name">Maggie Noodles</h1>
+            <h1 class="product-quantity-heading">Rs 11.50</h1>
+            <a class="vertical-card-button" type="button">Add To Cart</a>
+        </div>
+
+        <div class="card-container-horizontal cards-border-radius cards-shadow">
+            <i class="fa-solid fa-icon-heart fa-heart"></i>
+            <img class="card-component-horizontal cart-image" src="../Wishlist/wishlist-images/oil-img.jpg"></img>
+            <h1 class="product-name">Fortune Oil</h1>
+            <h1 class="product-quantity-heading">Rs 135.90</h1>
+            <a class="vertical-card-button" type="button">Add To Cart</a>
+        </div>
+
+        <div class="card-container-horizontal cards-border-radius cards-shadow">
+            <i class="fa-solid fa-icon-heart fa-heart"></i>
+            <img class="card-component-horizontal cart-image" src="../Wishlist/wishlist-images/spray-img.jpg"></img>
+            <h1 class="product-name text-aligngment">Lifebuoy Sanitizer</h1>
+            <h1 class="product-quantity-heading">Rs 71.50</h1>
+            <a class="vertical-card-button" type="button">Add To Cart</a>
+        </div>
          </div>
-     </div>
 </body>
 </html>
