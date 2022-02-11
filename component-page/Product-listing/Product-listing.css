@@ -25,6 +25,11 @@
     position: absolute;
     left: 4rem;
 }
+#sidebar-category,#sidebar-price-ranging,#sidebar-price{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+
+}
 @media screen and (max-width: 492px) {
 
     .categories-management-component{
