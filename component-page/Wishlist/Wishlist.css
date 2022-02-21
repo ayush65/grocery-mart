@@ -97,5 +97,8 @@
      .sidenav{
         display: none;
      }
+     .card-container-horizontal{
+        margin-top: 2rem;
+     }
 
 }
