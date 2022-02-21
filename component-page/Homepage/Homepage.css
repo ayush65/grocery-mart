@@ -8,15 +8,16 @@
 .homepage-logo{
     width: 95.813rem;
     height: 28.125rem;
-    border-bottom: 4px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
     
 }
 .homepage-page-component{
     position: absolute;
     top: 3rem;
     left: 0rem;
-    text-align: center;
-    gap:1rem;
+}
+.button-margin-top{
+    margin-top: 1rem;
 }
 .homepage-heading-category{
     color: var(--primary-color);
@@ -27,16 +28,10 @@
     width: 25rem;
     height: 12.5rem;
 }
-.homapage-category{
-    margin-top: 4rem;
-    gap:1rem;
-}
-.homapage-category{
-    display: flex;
-}
 .category-container{
     display: flex;
     gap:1rem;
+    margin-top: 5rem;
     flex-flow: row wrap;
 }
 .breakfast-img{
@@ -61,8 +56,8 @@
      }
 
      .card-container-horizontal{
-         width: 18.75rem;
-         height: 21.875rem;
+         width: 16.75rem;
+         height: 17.875rem;
      }
      .homepage-logo{
          width: 100%;
@@ -74,6 +69,19 @@
     .category-products-link{
         font-size: 1rem;
         position: absolute;
-        top:16rem;
+        top:10rem;
     }
+    .search-icon{
+        display: none;
+    }
+    .homepage-logo{
+        margin-top:1rem;
+    }
+    .card-component-horizontal{
+        height: 15rem;;
+    }
+    .input-box{
+        display: none;
+    }
+
 }

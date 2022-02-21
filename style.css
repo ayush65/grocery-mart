@@ -1,12 +1,18 @@
 @import url("https://angry-bird-ui.netlify.app/components/All-css-files/main.css");
 @import url("reset.css");
 
+:root {
+    --primary-color : rgb(90, 118, 150);
+}
 .tab-content-button{
     width: 40px;
     line-height:1.5;
     background-color: var(--white);
     color: var(--primary-color);
     border-radius: 25%;
+}
+.tab-container{
+    background-color: rgb(90, 118, 150);
 }
 .button{
     text-decoration: none;
@@ -53,6 +59,22 @@
      .landing-page-content{
          font-size: 1rem;
      }
+     .tab-header{
+         font-size: 1.2rem;
+     }
  }
+ @media screen and (max-width: 772px) {
+    .tabContainer-contents{
+       display: block;
+     }
+     .tab-content{
+         font-size: 1rem;
+         margin: 0.2rem;
+     }
+     .tab-content-button{
+         display: none;
+     }
+}
+  
 
   
