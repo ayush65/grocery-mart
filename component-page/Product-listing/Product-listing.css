@@ -38,7 +38,17 @@
         left: 0rem;
      }
      .card-container-horizontal{
-        width: 18.75rem;
+        width: 16.75rem;
         height: 24.375rem;
+    }
+    .product-quantity-heading{
+        left: 5rem;
+    }
+    .product-name{
+        left: 3.5rem;
+        width: 100%;
+    }
+    .text-aligngment{
+        left: 0.5rem;
     }
 }

@@ -65,7 +65,48 @@
     .cart-management-component{
         flex-flow: column wrap;
         gap: 4rem;
-        left: 1rem;
+        left: 0rem;
      }
-
+     .card-container-horizontal{
+        width: 18.5rem;
+        height: 12.75rem;
+    }
+    .cart-image{
+        width: 10rem;
+        height: 8rem;
+    }
+    .vertical-card-button{
+        position: absolute;
+        width: 6rem;
+        left: 0rem;
+        line-height: 2rem;
+    }
+    .vertical-card-button-save-later{
+        position: absolute;
+        width: 12rem;
+        right: 0rem;
+    }
+    .product-heading{
+        left: 10.5rem;
+        top: 2rem;
+        font-size: 1rem;
+    }
+    .product-price{
+        left: 10.5rem;
+        font-size: 1rem;
+        top: 6rem;
+    }
+    .fa-icon-plus,.fa-icon-minus,.product-quantity-heading{
+        top: 8rem;
+        font-size: 1rem;
+    }
+    .fa-icon-plus{
+        left: 11.5rem;
+    }
+    .fa-icon-minus{
+        left: 14.5rem;
+    }
+    .product-quantity-heading{
+        left: 13rem;
+    }
 }

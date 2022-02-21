@@ -35,10 +35,10 @@
 .wishlist-content-container{
     position: absolute;
     top: 7rem;
-    left: 20rem;
+    left: 10rem;
     display: flex;
     flex-flow: row wrap;
-    gap: 2.5rem;
+    gap: 4.5rem;
 }
 .card-container-horizontal{
     width: 15.625rem;
@@ -96,6 +96,9 @@
      }
      .sidenav{
         display: none;
+     }
+     .card-container-horizontal{
+        margin-top: 2rem;
      }
 
 }
